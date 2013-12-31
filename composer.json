@@ -1,0 +1,22 @@
+{
+    "name": "nuked-klan/nuked-composer-installer",
+    "description": "Nuked Klan module installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Loyant",
+            "email": "donald_duck@team-df.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    },
+    "autoload": {
+        "psr-0": {"Nuked\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "Nuked\\Composer\\ModulePlugin"
+    }
+}
