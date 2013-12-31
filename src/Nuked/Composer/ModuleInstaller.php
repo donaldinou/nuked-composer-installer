@@ -2,8 +2,10 @@
 
 namespace Nuked\Composer {
 
+    use Composer\Composer;
     use Composer\Package\PackageInterface;
     use Composer\Installer\LibraryInstaller;
+    use Composer\IO\IOInterface;
 
     class ModuleInstaller extends LibraryInstaller {
 
