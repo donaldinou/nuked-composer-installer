@@ -5,7 +5,7 @@ namespace Nuked\Composer {
     use Composer\Package\PackageInterface;
     use Composer\Installer\LibraryInstaller;
 
-    ModuleInstaller extends LibraryInstaller {
+    class ModuleInstaller extends LibraryInstaller {
 
         private $installationManager;
         private static $classCounter = 0;
